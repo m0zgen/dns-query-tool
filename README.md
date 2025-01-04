@@ -13,10 +13,15 @@ Options:
 
 Example:
 
+Common DNS query:
+
 ```shell
 ./dns-query-tool -domain google.com -type A -server 1.1.1.1 -port 53
 ```
 
+Custom DNS query with secret key:
+
+```shell
 ```bash
 ./dns-query-tool -domain google.com -type A -server 127.0.0.1 -port 5302 -secret secret-key
 ```
